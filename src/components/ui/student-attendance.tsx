@@ -37,8 +37,7 @@ export default function StudentAttendance() {
     setSelectedDate(new Date().toISOString().split('T')[0])
     setStudents([
       { id: '2401226020', name: 'Anshuman Tiwari', email: 'anshumaantiwari2003@gmail.com' },
-      { id: '2', name: 'Maria Garcia', email: 'maria@example.com' },
-      { id: '3', name: 'James Smith', email: 'james@example.com' },
+      
     ])
   }, [])
 
